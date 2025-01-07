@@ -1,0 +1,159 @@
+﻿  ThreadPool_proj.cpp
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\type_traits(1534,98): warning C4244: “参数”: 从“_Cv_TiD”转换到“int”，可能丢失数据
+          with
+          [
+              _Cv_TiD=unsigned __int64
+          ]
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\functional(669): message : 查看对正在编译的函数 模板 实例化“int std::invoke<_Cv_FD&,_Cv_TiD&,_Cv_TiD&>(_Callable,_Ty1,_Cv_TiD &) noexcept(false)”的引用
+          with
+          [
+              _Cv_FD=main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,
+              _Cv_TiD=unsigned __int64,
+              _Callable=main::<lambda_cf19187924a6a3b3060d231d7f03b5e7> &,
+              _Ty1=unsigned __int64 &
+          ]
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\functional(1305): message : 查看对正在编译的函数 模板 实例化“int std::_Invoker_ret<std::_Unforced,false>::_Call<_Cv_FD&,_Cv_TiD&,_Cv_TiD&>(_Fx,_Cv_TiD &,_Cv_TiD &) noexcept(false)”的引用
+          with
+          [
+              _Cv_FD=main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,
+              _Cv_TiD=unsigned __int64,
+              _Fx=main::<lambda_cf19187924a6a3b3060d231d7f03b5e7> &
+          ]
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\functional(1343): message : 查看对正在编译的函数 模板 实例化“int std::_Call_binder<std::_Unforced,0,1,_Ty1,_Ty2,std::tuple<>>(std::_Invoker_ret<std::_Unforced,false>,std::integer_sequence<size_t,0,1>,_Cv_FD &,_Cv_tuple_TiD &,_Untuple &&) noexcept(false)”的引用
+          with
+          [
+              _Ty1=main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,
+              _Ty2=std::tuple<unsigned __int64,unsigned __int64>,
+              _Cv_FD=main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,
+              _Cv_tuple_TiD=std::tuple<unsigned __int64,unsigned __int64>,
+              _Untuple=std::tuple<>
+          ]
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\type_traits(1524): message : 查看对正在编译的函数 模板 实例化“int std::_Binder<std::_Unforced,_Ty,unsigned __int64,unsigned __int64>::operator ()<>(void) noexcept(false)”的引用
+          with
+          [
+              _Ty=main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>
+          ]
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\type_traits(1524): message : 查看对正在编译的函数 模板 实例化“int std::_Binder<std::_Unforced,_Ty,unsigned __int64,unsigned __int64>::operator ()<>(void) noexcept(false)”的引用
+          with
+          [
+              _Ty=main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>
+          ]
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\functional(659): message : 查看对正在编译的函数 模板 实例化“int std::invoke<_Callable&>(std::_Binder<std::_Unforced,_Ty,unsigned __int64,unsigned __int64>&) noexcept(false)”的引用
+          with
+          [
+              _Callable=std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,size_t,size_t>,
+              _Ty=main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>
+          ]
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\functional(821): message : 查看对正在编译的函数 模板 实例化“_Rx std::_Invoker_ret<_Rx,false>::_Call<_Callable&,>(_Fx) noexcept(false)”的引用
+          with
+          [
+              _Rx=functype,
+              _Callable=std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,size_t,size_t>,
+              _Fx=std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,size_t,size_t> &
+          ]
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\functional(822): message : 查看对正在编译的函数 模板 实例化“_Rx std::_Invoker_ret<_Rx,false>::_Call<_Callable&,>(_Fx) noexcept(false)”的引用
+          with
+          [
+              _Rx=functype,
+              _Callable=std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,size_t,size_t>,
+              _Fx=std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,size_t,size_t> &
+          ]
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\functional(821): message : 在编译 类 模板 成员函数“_Rx std::_Func_impl_no_alloc<std::_Binder<std::_Unforced,_Ty,unsigned __int64,unsigned __int64>,_Rx>::_Do_call(void)”时
+          with
+          [
+              _Rx=functype,
+              _Ty=main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>
+          ]
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\functional(717): message : 查看对正在编译的 类 模板 实例化“std::_Func_impl_no_alloc<std::_Binder<std::_Unforced,_Ty,unsigned __int64,unsigned __int64>,_Ret>”的引用
+          with
+          [
+              _Ty=main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,
+              _Ret=functype
+          ]
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\functional(911): message : 查看指向正在编译的变量模板“const bool _Is_large<std::_Func_impl_no_alloc<std::_Binder<std::_Unforced,<lambda_cf19187924a6a3b3060d231d7f03b5e7>,unsigned __int64,unsigned __int64>,int> >”的引用
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\functional(1042): message : 查看对正在编译的函数 模板 实例化“void std::_Func_class<_Ret>::_Reset<std::_Binder<std::_Unforced,_Ty,unsigned __int64,unsigned __int64>>(_Fx &&)”的引用
+          with
+          [
+              _Ret=functype,
+              _Ty=main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,
+              _Fx=std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,size_t,size_t>
+          ]
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\functional(1042): message : 查看对正在编译的函数 模板 实例化“void std::_Func_class<_Ret>::_Reset<std::_Binder<std::_Unforced,_Ty,unsigned __int64,unsigned __int64>>(_Fx &&)”的引用
+          with
+          [
+              _Ret=functype,
+              _Ty=main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,
+              _Fx=std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,size_t,size_t>
+          ]
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\future(464): message : 查看对正在编译的函数 模板 实例化“std::function<_Ret (void)>::function<_Ty,0>(_Fx)”的引用
+          with
+          [
+              _Ret=functype,
+              _Ty=std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,size_t,size_t>,
+              _Fx=std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,size_t,size_t>
+          ]
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\future(464): message : 查看对正在编译的函数 模板 实例化“std::function<_Ret (void)>::function<_Ty,0>(_Fx)”的引用
+          with
+          [
+              _Ret=functype,
+              _Ty=std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,size_t,size_t>,
+              _Fx=std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,size_t,size_t>
+          ]
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\future(1340): message : 查看对正在编译的函数 模板 实例化“std::_Packaged_state<_Ret (void)>::_Packaged_state<_Ty>(_Fty2 &&)”的引用
+          with
+          [
+              _Ret=functype,
+              _Ty=std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,size_t,size_t>,
+              _Fty2=std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,size_t,size_t>
+          ]
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\future(1340): message : 查看对正在编译的函数 模板 实例化“std::_Packaged_state<_Ret (void)>::_Packaged_state<_Ty>(_Fty2 &&)”的引用
+          with
+          [
+              _Ret=functype,
+              _Ty=std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,size_t,size_t>,
+              _Fty2=std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,size_t,size_t>
+          ]
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\xutility(142): message : 查看对正在编译的函数 模板 实例化“std::packaged_task<functype (void)>::packaged_task<_Ty,0>(_Fty2 &&)”的引用
+          with
+          [
+              _Ty=std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,size_t,size_t>,
+              _Fty2=std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,size_t,size_t>
+          ]
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\xutility(149): message : 查看对正在编译的函数 模板 实例化“std::packaged_task<functype (void)>::packaged_task<_Ty,0>(_Fty2 &&)”的引用
+          with
+          [
+              _Ty=std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,size_t,size_t>,
+              _Fty2=std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,size_t,size_t>
+          ]
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\memory(2006): message : 查看对正在编译的函数 模板 实例化“void std::_Construct_in_place<_Ty,std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,unsigned __int64,unsigned __int64>>(_Ty &,std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,unsigned __int64,unsigned __int64> &&) noexcept(false)”的引用
+          with
+          [
+              _Ty=std::packaged_task<functype (void)>
+          ]
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\memory(2725): message : 查看对正在编译的函数 模板 实例化“std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,unsigned __int64,unsigned __int64>>(std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,unsigned __int64,unsigned __int64> &&)”的引用
+          with
+          [
+              _Ty=std::packaged_task<functype (void)>
+          ]
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\memory(2726): message : 查看对正在编译的函数 模板 实例化“std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,unsigned __int64,unsigned __int64>>(std::_Binder<std::_Unforced,main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,unsigned __int64,unsigned __int64> &&)”的引用
+          with
+          [
+              _Ty=std::packaged_task<functype (void)>
+          ]
+F:\leetcodevsspace\ThreadPool_proj\ThreadPool.hpp(62): message : 查看对正在编译的函数 模板 实例化“std::shared_ptr<std::packaged_task<functype (void)>> std::make_shared<std::packaged_task<functype (void)>,std::_Binder<std::_Unforced,_Ty,unsigned __int64,unsigned __int64>>(std::_Binder<std::_Unforced,_Ty,unsigned __int64,unsigned __int64> &&)”的引用
+          with
+          [
+              _Ty=main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>
+          ]
+F:\leetcodevsspace\ThreadPool_proj\ThreadPool_proj.cpp(13): message : 查看对正在编译的函数 模板 实例化“std::future<_Result> ThreadPool::enques<main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>,size_t,size_t>(F &&,size_t &&,size_t &&)”的引用
+          with
+          [
+              _Result=int,
+              F=main::<lambda_cf19187924a6a3b3060d231d7f03b5e7>
+          ]
+F:\visual studio\VC\Tools\MSVC\14.29.30133\include\type_traits(1534,67): warning C4244: “参数”: 从“_Cv_TiD”转换到“int”，可能丢失数据
+          with
+          [
+              _Cv_TiD=unsigned __int64
+          ]
+  ThreadPool_proj.vcxproj -> F:\leetcodevsspace\leetcodevsspace\x64\Debug\ThreadPool_proj.exe
